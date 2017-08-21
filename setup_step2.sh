@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-source ~/.bashrc
-conda list
+exec bash
+pip install wget
