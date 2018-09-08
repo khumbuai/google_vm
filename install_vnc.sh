@@ -1,10 +1,10 @@
-# https://medium.com/google-cloud/graphical-user-interface-gui-for-google-compute-engine-instance-78fccda09e5c
+#!/bin/sh
+LIST_OF_APPS="gnome-core vnc4server gnome-panel"
 
-sudo apt-get update
-sudo apt-get install gnome-core -y
-sudo apt-get install vnc4server -y
-sudo apt-get install gnome-panel -y
+apt-get update
+apt-get install -y $LIST_OF_APPS
 
 #set firewall
 
-gcloud compute firewall-rules create vnc1 --allow=tcp:5901
+#gcloud compute firewall-rules create vnc1 --allow=tcp:5901
+# https://medium.com/google-cloud/graphical-user-interface-gui-for-google-compute-engine-instance-78fccda09e5c
