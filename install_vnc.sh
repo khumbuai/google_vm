@@ -4,3 +4,7 @@ sudo apt-get update
 sudo apt-get install gnome-core -y
 sudo apt-get install vnc4server -y
 sudo apt-get install gnome-panel -y
+
+#set firewall
+
+gcloud compute firewall-rules create vnc1 --allow=tcp:5901
