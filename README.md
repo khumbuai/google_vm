@@ -6,8 +6,9 @@
 3. cd google_vm
 4. chmod u+x install.sh
 5. ./install.sh
-6. Go to google compute engine and look up the ip address (e.g. 35.197.114.26)
-7. open xx.xxx.xxx.xx:5901 in VNC Viewer
+6. Follow instructions...This may take around 20 Minutes
+7. Go to google compute engine and look up the ip address (e.g. 35.197.114.26)
+8. open xx.xxx.xxx.xx:5901 in VNC Viewer
 
 
 
