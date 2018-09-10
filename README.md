@@ -16,7 +16,7 @@
 12. chmod u+x install_tf_gpu
 13. ./install_tf_gpu
 14. chmod u+x install_vnc.sh
-15. ./install_vnc.sh
+15. sudo ./install_vnc.sh
 16. choose ligthdm as display driver
 17. vncserver
 18. Create password
@@ -25,7 +25,7 @@
 21. vncserver -geometry 1920x1600
 22. gcloud compute firewall-rules create vnc1 --allow=tcp:5901
 23. Go to google compute engine and look up the ip address (e.g. 35.197.114.26)
-24. open xx.xxx.xxx.xx:5901
+24. open xx.xxx.xxx.xx:5901 in VNC Viewer
 
 
 
