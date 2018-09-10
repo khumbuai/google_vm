@@ -2,7 +2,7 @@
 
 ### Using google cloud platform
 1. Start an instance and open bash in your browser.
-2. git clone https://github.com/khumbuai/google_vm
+2. git clone --branch xfce4 https://github.com/khumbuai/google_vm 
 3. cd google_vm
 4. chmod u+x install.sh
 5. ./install.sh
