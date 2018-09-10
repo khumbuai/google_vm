@@ -21,12 +21,11 @@
 17. vncserver
 18. Create password
 19. cp xstartup ../.vnc/
-20. vim ../.vnc/xstartup
-21. vncserver -kill :1
-22. vncserver -geometry 1920x1600
-23. gcloud compute firewall-rules create vnc1 --allow=tcp:5901
-24. Go to google compute engine and look up the ip address (e.g. 35.197.114.26)
-25. open xx.xxx.xxx.xx:5901
+20. vncserver -kill :1
+21. vncserver -geometry 1920x1600
+22. gcloud compute firewall-rules create vnc1 --allow=tcp:5901
+23. Go to google compute engine and look up the ip address (e.g. 35.197.114.26)
+24. open xx.xxx.xxx.xx:5901
 
 
 
