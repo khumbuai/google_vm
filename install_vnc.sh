@@ -1,10 +1,9 @@
-#!/bin/sh
-LIST_OF_APPS="gnome-core vnc4server gnome-panel"
+sudo apt-get install dbus
+sudo apt-get install lxde
 
-apt-get update
-apt-get install -y $LIST_OF_APPS
+sudo apt-get update
+sudo apt-get install tightvncserver
 
-#set firewall
+sudo apt-get install xfce4 xfce4-goodies
 
-#gcloud compute firewall-rules create vnc1 --allow=tcp:5901
-# https://medium.com/google-cloud/graphical-user-interface-gui-for-google-compute-engine-instance-78fccda09e5c
+vncserver
