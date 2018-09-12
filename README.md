@@ -5,7 +5,6 @@
 2. git clone https://github.com/khumbuai/google_vm.git
 3. cd google_vm
 4. sudo bash install_miniconda.sh
-8. cd google_vm
 9. sudo bash install_cuda.sh
 11. sudo bash install_cudnn.sh
 12. sudo bash install_tf_gpu.sh
