@@ -4,6 +4,10 @@ chmod u+x setup_vm.sh
 
 cd
 cd google_vm
+
+chmod u+x install_vnc.sh
+sudo ./install_vnc.sh
+
 chmod u+x install_cuda.sh 
 sudo ./install_cuda.sh
 
@@ -16,8 +20,6 @@ chmod u+x install_tf_gpu.sh
 chmod u+x install_pycharm.sh
 ./install_pycharm.sh
 
-chmod u+x install_vnc.sh
-sudo ./install_vnc.sh
 
 gcloud compute firewall-rules create vnc1 --allow=tcp:5901
 
