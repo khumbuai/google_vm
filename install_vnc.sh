@@ -1,7 +1,7 @@
 #!/bin/sh
-LIST_OF_APPS="gnome-core vnc4server gnome-panel"
+LIST_OF_APPS="ubuntu-desktop gnome-panel gnome-setings-daemon metacity nautilus gnome-terminal vnc4server "
 
-apt-get update
+apt-get update && sudo apt-get upgrade
 apt-get install -y $LIST_OF_APPS
 
 #set firewall
