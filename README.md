@@ -18,12 +18,12 @@
 23. Go to google compute engine and look up the ip address (e.g. 35.197.114.26)
 24. open xx.xxx.xxx.xx:5901 in VNC Viewer
 
-...vielleicht kann man erst xstartup kopieren und dann vncserver starten 
-
 
 ### tips and tricks
 
 #### Using GCP Buckets
+https://blog.kovalevskyi.com/deep-learning-images-for-google-cloud-engine-the-definitive-guide-bc74f5fb02bc
+
 
 https://cloud.google.com/storage/docs/quickstart-gsutil
 
