@@ -1,3 +1,22 @@
+# genesis vm
+
+1. setup
+  a. create ssh key
+  b. create instance
+  c. login using username ubuntu
+
+2. install miniconda
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+enter - yes - no
+
+#add in .bashrc
+export PATH="/home/ubuntu/miniconda3/bin:$PATH"
+do source .bashrc
+check python:
+`which python`
+`pyhton --version`
+
+
 # google_vm
 
 ### Using google cloud platform
