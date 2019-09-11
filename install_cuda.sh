@@ -1,5 +1,8 @@
 #https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#verify-kernel-packages
 sudo apt-get install linux-headers-$(uname -r)
+sudo apt-get install build-essential dkms
+sudo apt-get install freeglut3 freeglut3-dev libxi-dev libxmu-dev
+
 
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-ubuntu1604.pin
 sudo mv cuda-ubuntu1604.pin /etc/apt/preferences.d/cuda-repository-pin-600
