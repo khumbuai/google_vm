@@ -1,2 +1,2 @@
 pip install torch torchvision pandas opencv-python albumentations scipy
-pip install joblib
+pip install sklearn joblib pytorchcv tensorboardX
