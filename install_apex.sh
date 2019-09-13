@@ -1,4 +1,6 @@
 sudo apt install nvidia-cuda-toolkit
+sudo apt update
+sudo apt install build-essential
 
 git clone https://github.com/NVIDIA/apex
 cd apex
